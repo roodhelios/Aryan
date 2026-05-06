@@ -1,4 +1,4 @@
-<h1 align="center">Hey there, I'm YourName 👋</h1>
+<h1 align="center">Hey there, I'm Aryan Singh 👋</h1>
 
 <p align="center">
   <code>Pushing limits, building tools, breaking stuff ethically</code>
