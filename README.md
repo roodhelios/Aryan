@@ -116,7 +116,7 @@ Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associ
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/-grey?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 
 </details>
 
@@ -141,7 +141,8 @@ Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associ
 ![Burp](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 ![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-00549E?style=flat-square&logo=owasp&logoColor=white)
 ![IDA Pro](https://img.shields.io/badge/IDA_Pro-1E1E1E?style=flat-square)
-![Ghidra](https://img.shields.io/badge/capa-5B2C6F?style=flat-square)
+![Ghidra](https://img.shields.io/badge/Ghidra-5B2C6F?style=flat-square)
+![capa](https://img.shields.io/badge/capa-6C3483?style=flat-square)
 ![FLARE-VM](https://img.shields.io/badge/FLARE--VM-B03A2E?style=flat-square)
 
 </details>
@@ -164,12 +165,8 @@ Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associ
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=roodhelios&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&icon_color=4EA8DE&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roodhelios&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&text_color=C9D1D9" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=roodhelios&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=4EA8DE&line=4EA8DE&point=FFFFFF&area=true" width="95%" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=roodhelios&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&icon_color=4EA8DE&text_color=C9D1D9" alt="GitHub stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=roodhelios&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&text_color=C9D1D9" alt="Top languages" />
 
 </div>
 
