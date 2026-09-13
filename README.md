@@ -1,184 +1,51 @@
-<div align="center">
+# Aryan Singh
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C81,100:1B2735&height=180&section=header&text=Aryan%20Singh&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Security%20Engineer%20%7C%20Zero%20Trust%20%C2%B7%20Cloud%20Security%20%C2%B7%20Malware%20RE&descAlignY=57&descSize=16" width="100%" />
+Security engineer focused on Zero Trust, cloud security, detection engineering, and malware analysis.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=4EA8DE&center=true&vCenter=true&width=700&lines=Building+Zero+Trust+authorization+for+AI+agents;Hardening+AWS+at+production+scale;Reverse-engineering+malware+for+fun;Never+trust.+Always+verify." alt="Typing SVG" />
+I am pursuing an M.S. in Cybersecurity at Northeastern University. Before graduate school, I spent 15 months working with AWS security, identity and access management, network segmentation, and Linux and Windows systems in a hybrid environment.
 
-<br/>
+[Portfolio source](https://github.com/roodhelios/Portfolio.github.io) | [LinkedIn](https://www.linkedin.com/in/aryan-singh-rootkid) | [Email](mailto:Aryanpratapsingh1912@gmail.com)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0F4C81?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://roodhelios.github.io/Portfolio.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-singh-rootkid)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Aryanpratapsingh1912@gmail.com)
-![Profile views](https://komarev.com/ghpvc/?username=roodhelios&style=for-the-badge&color=0F4C81)
+## What I am working on
 
-</div>
+### Cybersecurity Engineering Lab
 
----
+A public collection of small security engineering systems and sanitized lab case studies. The current project normalizes Suricata EVE alerts and Zeek connection records into one typed JSON event format, with a command-line interface, deterministic fixtures, and unit tests.
 
-## `whoami`
+[View the cybersecurity engineering lab](https://github.com/roodhelios/cybersecurity-engineering-lab)
 
-```
-Aryan Singh — Security Engineer
-├── now      : M.S. Cybersecurity @ Northeastern University (Khoury)
-├── before   : 15 months securing production AWS + a 40-server hybrid fleet
-├── building : Zero Trust authorization for autonomous AI agents
-├── into     : cloud IAM, detection engineering, malware reverse engineering
-└── seeking  : Summer 2027 security engineering co-op
-```
+### CVE-2022-26134 Detection Engineering
 
-- Spent 15 months as a Security Engineer rebuilding IAM around least privilege across 6 AWS accounts, segmenting VPCs, and hardening Linux/Windows fleets.
-- Now focused on a problem I think is underbuilt: **autonomous AI agents get permanent trust after one login.** That's a terrible security model, so I'm building the alternative.
-- Comfortable on both sides of the line — I write policy engines and I also take apart packed PE32 loaders in FLARE-VM.
-- Published undergrad research on ultrasound image denoising (BM3D + ADMM) with CRC Press / Taylor & Francis.
+A defensive study of the Atlassian Confluence OGNL injection vulnerability. The repository contains a technical paper, an attack-flow explanation, synthetic Confluence logs, Python detection tools, and a Sigma rule.
 
----
-
-## Featured Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
+[View the CVE case study](https://github.com/roodhelios/CVE-2022-26134-OGNL-Injection)
 
 ### Aegis
-**Zero Trust control plane for autonomous AI agents**
 
-Every tool call an agent makes is authorized before it executes — identity verified, request signed, risk scored, policy evaluated.
+A Zero Trust control plane for tool-using AI agents. The prototype verifies Ed25519-signed requests, checks timestamps and nonces, scores risk, evaluates OPA policies, and records decisions in PostgreSQL. The repository is private while I finish its security review, tests, and documentation.
 
-`Python` `FastAPI` `OPA/Rego` `PostgreSQL` `Redis` `Ed25519`
+### Zero Shadow
 
-[Repo →](https://github.com/roodhelios)
+An asset-intelligence project for collecting authorized asset data, normalizing findings, explaining risk, and prioritizing remediation. The public repository is currently under active development, so I do not present the planned components as completed features.
 
-</td>
-<td width="50%" valign="top">
+[View Zero Shadow](https://github.com/roodhelios/zero-shadow-autonomous-asset-intelligence)
 
-### Digital Footprint Risk Visualizer
-**Attack surface & vulnerability intelligence platform**
+## Practical security work
 
-Four scanners orchestrated behind one authenticated control layer, each sandboxed, findings normalized into a single severity-ranked view.
+- Network defense: Wireshark, tcpdump, Scapy, iptables, Snort, Zeek, Suricata, ARP analysis, TCP attacks, VPNs, and DNS security in isolated lab networks
+- Application security: WebGoat, NATAS, SQL injection, cross-site scripting, clickjacking, CSRF, SSRF, OWASP ZAP, and controlled Metasploit exercises
+- Malware analysis: PEStudio, Detect It Easy, capa, IDA, x64dbg, Procmon, ProcDOT, FakeNet-NG, and Wireshark in isolated virtual machines
+- Cloud and identity: AWS IAM, MFA, logging, budget controls, least privilege, network segmentation, Docker, and Kubernetes
+- Security engineering: Python, FastAPI, OPA and Rego, PostgreSQL, Redis, JWT, Ed25519, Bash, SQL, and JavaScript
 
-`React` `Node.js` `MongoDB` `Docker` `JWT` `TOTP MFA`
+## How I document work
 
-[Repo →](https://github.com/roodhelios)
+I publish code, tests, synthetic fixtures, sanitized screenshots, and reproduction steps when they are safe to share. I separate original course evidence from later reimplementations and new extensions. I do not publish credentials, live malware, private information, or results that I cannot reproduce.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## Research
 
-### Artemis / TSULoader Analysis
-**Malware reverse engineering**
+I co-authored undergraduate research on ultrasound image denoising using BM3D and ADMM, published through CRC Press and Taylor & Francis.
 
-Static and dynamic teardown of a packed PE32 loader — high-entropy section analysis through to the dropped DLL payload.
+## Current goal
 
-`FLARE-VM` `IDA Pro` `capa` `Procmon` `FakeNet-NG`
-
-[Writeup →](https://github.com/roodhelios)
-
-</td>
-<td width="50%" valign="top">
-
-### Network Threat Detection
-**GRU-LSTM traffic anomaly model**
-
-Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associated traffic at ~92% accuracy.
-
-`TensorFlow` `Keras` `Pandas` `AWS Lambda`
-
-[Repo →](https://github.com/roodhelios)
-
-</td>
-</tr>
-</table>
-
----
-
-## Toolkit
-
-<details open>
-<summary><b>Security Engineering &amp; IAM</b></summary>
-<br/>
-
-![Zero Trust](https://img.shields.io/badge/Zero_Trust-0F4C81?style=flat-square)
-![OPA](https://img.shields.io/badge/Open_Policy_Agent-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
-![Rego](https://img.shields.io/badge/Rego-566270?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Ed25519](https://img.shields.io/badge/Ed25519-4A4A4A?style=flat-square)
-![MFA](https://img.shields.io/badge/TOTP_MFA-2D6A4F?style=flat-square)
-
-</details>
-
-<details>
-<summary><b>Cloud &amp; Infrastructure</b></summary>
-<br/>
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![IAM](https://img.shields.io/badge/IAM-FF9900?style=flat-square&logo=amazoniam&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/-grey?style=flat-square)
-
-</details>
-
-<details>
-<summary><b>Detection &amp; Network Security</b></summary>
-<br/>
-
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata-EE2A35?style=flat-square&logo=suricata&logoColor=white)
-![Zeek](https://img.shields.io/badge/Zeek-4B8BBE?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-0B5394?style=flat-square)
-![iptables](https://img.shields.io/badge/iptables-D62828?style=flat-square)
-
-</details>
-
-<details>
-<summary><b>Offensive Security &amp; Malware RE</b></summary>
-<br/>
-
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Burp](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-00549E?style=flat-square&logo=owasp&logoColor=white)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-1E1E1E?style=flat-square)
-![Ghidra](https://img.shields.io/badge/capa-5B2C6F?style=flat-square)
-![FLARE-VM](https://img.shields.io/badge/FLARE--VM-B03A2E?style=flat-square)
-
-</details>
-
-<details>
-<summary><b>Languages</b></summary>
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-</details>
-
----
-
-## Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=roodhelios&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&icon_color=4EA8DE&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roodhelios&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=4EA8DE&text_color=C9D1D9" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=roodhelios&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=4EA8DE&line=4EA8DE&point=FFFFFF&area=true" width="95%" />
-
-</div>
-
----
-
-<div align="center">
-
-**Never trust. Always verify.**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B2735,100:0F4C81&height=100&section=footer" width="100%" />
-
-</div>
+I am looking for a 2027 security engineering or detection engineering co-op where I can work on practical defensive systems and continue learning from experienced engineers.
