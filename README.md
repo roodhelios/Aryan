@@ -58,7 +58,7 @@ Four scanners orchestrated behind one authenticated control layer, each sandboxe
 
 `React` `Node.js` `MongoDB` `Docker` `JWT` `TOTP MFA`
 
-[Repo →](https://github.com/roodhelios/zero-shadow-autonomous-asset-intelligence)
+[Repo →](https://github.com/roodhelios/Digital-Footprint-Analyzer)
 
 </td>
 </tr>
@@ -85,6 +85,20 @@ Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associ
 `TensorFlow` `Keras` `Pandas` `AWS Lambda`
 
 _Repo coming_
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### Zero Shadow — Autonomous Asset Intelligence
+**Local-first asset correlation & explainable security risk engine**
+
+Correlates explicitly scoped asset observations from multiple sources into stable asset identities while preserving source evidence. Built around deterministic matching, safe fixture-driven development, and explainable risk scoring rather than opaque discovery.
+
+`Python` `Asset Correlation` `Risk Scoring` `Security Automation` `Deterministic Tests`
+
+[Repo →](https://github.com/roodhelios/zero-shadow-autonomous-asset-intelligence)
 
 </td>
 </tr>
