@@ -46,7 +46,7 @@ Every tool call an agent makes is authorized before it executes — identity ver
 
 `Python` `FastAPI` `OPA/Rego` `PostgreSQL` `Redis` `Ed25519`
 
-[Repo →](https://github.com/roodhelios)
+_Private repository_
 
 </td>
 <td width="50%" valign="top">
@@ -58,7 +58,7 @@ Four scanners orchestrated behind one authenticated control layer, each sandboxe
 
 `React` `Node.js` `MongoDB` `Docker` `JWT` `TOTP MFA`
 
-[Repo →](https://github.com/roodhelios)
+[Repo →](https://github.com/roodhelios/zero-shadow-autonomous-asset-intelligence)
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Static and dynamic teardown of a packed PE32 loader — high-entropy section ana
 
 `FLARE-VM` `IDA Pro` `capa` `Procmon` `FakeNet-NG`
 
-[Writeup →](https://github.com/roodhelios)
+_Writeup coming_
 
 </td>
 <td width="50%" valign="top">
@@ -84,7 +84,7 @@ Hybrid recurrent model on temporal flow features, detecting DDoS and MITM-associ
 
 `TensorFlow` `Keras` `Pandas` `AWS Lambda`
 
-[Repo →](https://github.com/roodhelios)
+_Repo coming_
 
 </td>
 </tr>
